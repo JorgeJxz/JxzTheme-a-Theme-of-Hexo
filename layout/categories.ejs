@@ -1,0 +1,12 @@
+<%
+    var title = '';
+    if (page.category) title = page.category;
+    if (page.tag) title = page.tag;
+%>
+<% if(title) { %>
+   <h2 class=""><%- title %></h2>
+<% } %>
+
+<% page.posts.each(function(item){ %>
+<%- partial('partials/article-excerpt', {item: item}) %>
+<% }); %>

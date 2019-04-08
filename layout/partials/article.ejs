@@ -1,0 +1,15 @@
+<div class="">
+    <!-- Title -->
+    <h2 class="">
+        <a href="<%- config.root %><%- item.path %>">
+            <%- item.title || item.link%>
+        </a>
+    </h2>
+    <!-- Date and Author -->
+    <p class="">
+        <%= item.date.format(config.date_format) %>
+        <% if(item.author) { %>
+            by <%- item.author %>
+        <% } %>
+    </p>
+</div>

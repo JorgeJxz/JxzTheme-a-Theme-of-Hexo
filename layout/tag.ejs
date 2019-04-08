@@ -1,0 +1,16 @@
+<div class="mdl-grid">
+  <div class="mdl-cell mdl-cell--12-col espacio">
+    <%
+        var title = '';
+        if (page.category) title = page.category;
+        if (page.tag) title = page.tag;
+    %>
+    <% if(title) { %>
+       <h2 class="tituloPortada"><%- title %></h2>
+    <% } %>
+  </div>
+</div>
+
+<% page.posts.each(function(item){ %>
+<%- partial('partials/article-excerpt', {item: item}) %>
+<% }); %>

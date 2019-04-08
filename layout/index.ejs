@@ -1,0 +1,30 @@
+<div class="mdl-grid">
+  <div class="mdl-cell mdl-cell--12-col">
+    <h1 class="tituloPortada">JxzTheme</h1>
+    <br>
+    <h3 class="tituloPortada">Hexo and MDL theme for a Blog</h3>
+  </div>
+</div>
+
+<div class="mdl-grid">
+  <div class="mdl-cell mdl-cell--8-col">
+    <img src="https://picsum.photos/1200/800?image=1056" class="imagenDePortada" alt="">
+  </div>
+  <div class="mdl-cell mdl-cell--4-col">
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis malesuada elementum. Phasellus elementum urna vitae tellus congue rhoncus. Vivamus accumsan varius mi nec varius. Curabitur eleifend nisi faucibus, consectetur nibh sit amet, luctus nibh. Morbi venenatis ultrices viverra. Nullam sit amet eros turpis. Sed lacus mi, tincidunt eget lobortis vel, placerat et nisl. Pellentesque sed luctus mauris, vitae vestibulum purus. Suspendisse risus sem, pulvinar quis maximus vitae, dapibus ultrices risus. Nullam efficitur orci a nisl dapibus sodales. Praesent hendrerit sed nibh non consectetur.
+    </p>
+    <p>
+      Proin luctus massa urna, ut dignissim elit feugiat non. In ac leo bibendum, blandit mi nec, scelerisque lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis molestie ultrices iaculis. Phasellus et nunc sed neque ultrices luctus. Nullam in neque sed elit euismod scelerisque id non diam. Nam pulvinar sollicitudin laoreet. Maecenas lacinia elit a ligula bibendum, quis dapibus lectus consequat. Aliquam lorem sem, porttitor condimentum nibh egestas, luctus feugiat enim. Mauris accumsan sapien nec tincidunt vehicula. Integer fermentum massa ac erat efficitur maximus. Cras leo elit, tempor vel risus nec, mattis mollis urna. Duis ultrices enim nulla. Pellentesque nec sodales massa, non volutpat nisl. Pellentesque iaculis iaculis tellus a dapibus.
+    </p>
+  </div>
+</div>
+<div class="mdl-grid mdl-grid--no-spacing ">
+  <main class="mdl-layout__content">
+    <% page.posts.each(function(item){ %>
+      <%- partial('partials/article-excerpt', {item: item}) %>
+    <% }); %>
+  </main>
+    <%- partial('partials/pagination') %>
+
+</div>

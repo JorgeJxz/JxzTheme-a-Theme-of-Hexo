@@ -1,0 +1,13 @@
+<% if (page.tags && page.tags.length){ %>
+<%
+    var tags = [];
+    page.tags.forEach(function(tag){
+        tags.push('<a href="' + config.root + tag.path + '">#' + tag.name + '</a>');
+    });
+%>
+<div class="">
+  <span class="mdl-chip">
+      <span class="mdl-chip__text"><%- tags.join(' ') %></span>
+  </span>
+</div>
+<% } %>

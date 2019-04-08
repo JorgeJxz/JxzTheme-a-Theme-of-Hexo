@@ -1,0 +1,19 @@
+<% if ( site.categories &&  site.categories.length){ %>
+<%
+    var categories = [];
+
+     site.categories.forEach(function(category){
+        categories.push('<li class="mdl-list__item footerList"><a href=' + config.root + category.path + '>' + category.name + '</li></a>');
+        console.log(categories);
+        console.log(site.categories);
+    });
+%>
+<div id="contenedorDeListasFooter">
+  <h6>Categories</h6>
+    <span class="mdl-list__item-primary-content ">
+      <ul>
+      <%- categories.join("/") %>
+      </ul>
+    </span>
+</div>
+<% } %>

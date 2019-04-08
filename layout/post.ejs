@@ -1,0 +1,16 @@
+<div class="mdl-grid">
+  <main class="mdl-layout__content mdl-cell--stretch espacio">
+    <h1 class="tituloPortada"><%- page.title %></h1>
+    <h4 class="datePost">
+      <%= page.date.format(config.date_format) %>
+    <% if(page.author) { %>
+        by <%- page.author %>
+    <% } %>
+    </h4>
+    <div class = "postContent">
+      <%- page.content %>
+      <%- partial('partials/categories-post')%>
+      <%- partial('partials/tags')%>
+    </div>
+  </main>
+</div>

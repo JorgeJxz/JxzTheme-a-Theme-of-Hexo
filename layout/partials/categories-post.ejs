@@ -1,0 +1,13 @@
+<% if (page.categories && page.categories.length){ %>
+<%
+    var categories = [];
+    page.categories.forEach(function(category){
+        categories.push('<a href="' + config.root + category.path + '">' + category.name + '</a>');
+    });
+%>
+<div class="">
+  <span class="mdl-chip">
+      <span class="mdl-chip__text"><%- categories.join(' / ') %></span>
+  </span>
+</div>
+<% } %>
