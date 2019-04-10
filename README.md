@@ -6,6 +6,8 @@ It is based on the design language of Google Material Desing Lite, the theme has
 
 ## Screenshot
 
+![Main Page](https://i.imgur.com/Wyey6ZF.jpg)
+
 ### Getting Started
 
 This is a hexo theme and its installation is very simple in the official website of the framework you will find information on how to change the theme.[Hexo Theme](https://hexo.io/docs/themes).
