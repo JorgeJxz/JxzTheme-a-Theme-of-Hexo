@@ -8,19 +8,19 @@ It is based on the design language of Google Material Desing Lite, the theme has
 
 The JXzTheme has all the basic features of a blog like:
 
-*Automatic indecision of the post to the main page.
-*Navigation page from the 3 posts.
-*It has the possibility to add categories.
-*Khow Me page.
-*Portafolo page.
+* Automatic indecision of the post to the main page.
+* Navigation page from the 3 posts.
+* It has the possibility to add categories.
+* Khow Me page.
+* Portafolo page.
 
 But you must know how to handle the Hexo framework, in addition to a basic knowledge on how to use Material Desing Lite.
 
 Using these technologies contributes to the topic in addition to the aforementioned:
 
-*A simple content management
-*Responsy Desing
-*Simplicity and practicality.
+* A simple content management
+* Responsy Desing
+* Simplicity and practicality.
 
 ## Screenshot :camera:
 
