@@ -6,7 +6,7 @@ It is based on the design language of Google Material Desing Lite, the theme has
 
 ## Characteristics of the Theme :fire:
 
-The JXzTheme has all the basic features of a blog like:
+The JxzTheme has all the basic features of a blog like:
 
 * Automatic indecision of the post to the main page.
 * Navigation page from the 3 posts.
